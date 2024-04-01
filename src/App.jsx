@@ -55,7 +55,7 @@ export default function App() {
       </form>
       {loading && <p>Loading data...</p>}
       {display && (
-        <div className="cards">
+        <div className=".weather-cards">
           <Card label="Temprature" value={temprature} />
           <Card label="Humidity" value={humidity} />
           <Card label="Condition" value={condition} />
