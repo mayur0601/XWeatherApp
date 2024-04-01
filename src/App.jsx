@@ -53,7 +53,7 @@ export default function App() {
         />
         <button type="submit">Search</button>
       </form>
-      {loading && <p>Loading Data...</p>}
+      {loading && <p>Loading data...</p>}
       {display && (
         <div className="cards">
           <Card label="Temprature" value={temprature} />
